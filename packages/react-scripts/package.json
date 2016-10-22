@@ -1,14 +1,14 @@
 {
-  "name": "react-scripts",
-  "version": "0.7.0",
-  "description": "Configuration and scripts for Create React App.",
-  "repository": "facebookincubator/create-react-app",
+  "name": "@powerreviews/react-scripts",
+  "version": "0.1.0",
+  "description": "Configuration and scripts for Create React App, customized for Powerreviews",
+  "repository": "powerreviews/create-react-app",
   "license": "BSD-3-Clause",
   "engines": {
     "node": ">=4"
   },
   "bugs": {
-    "url": "https://github.com/facebookincubator/create-react-app/issues"
+    "url": "https://github.com/powerreviews/create-react-app/issues"
   },
   "files": [
     ".babelrc",
