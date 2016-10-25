@@ -142,7 +142,7 @@ module.exports = {
       // "sass" loader inherits from css loader
       {
         test: /(\.scss|\.sass)$/,
-        loader: 'style!css!postcss!sass'
+        loader: 'style!css?modules&importLoaders=1&camelCase&localIdentName=[name]__[local]___[hash:base64:5]!postcss!sass'
       },
       // JSON is not enabled by default in Webpack but both Node and Browserify
       // allow it implicitly so we also enable it.
