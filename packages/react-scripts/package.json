@@ -47,8 +47,10 @@
     "extract-text-webpack-plugin": "1.0.1",
     "file-loader": "0.10.0",
     "fs-extra": "0.30.0",
+    "glob": "^7.1.1",
     "html-webpack-plugin": "2.24.0",
     "http-proxy-middleware": "0.17.3",
+    "i18n-webpack-plugin": "^0.3.0",
     "jest": "18.1.0",
     "json-loader": "0.5.4",
     "object-assign": "4.1.1",
@@ -67,7 +69,8 @@
     "webpack": "1.14.0",
     "webpack-dev-server": "1.16.2",
     "webpack-manifest-plugin": "1.1.0",
-    "whatwg-fetch": "2.0.2"
+    "whatwg-fetch": "2.0.2",
+    "yargs": "^8.0.1"
   },
   "devDependencies": {
     "react": "^15.3.0",
