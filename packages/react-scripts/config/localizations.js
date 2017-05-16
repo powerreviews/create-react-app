@@ -14,8 +14,8 @@
 
 const glob = require('glob');
 const path = require('path');
-const argv = require('yargs').argv;
 const paths = require('./paths');
+const argv = require('yargs').argv;
 const DEFAULT_LOCALIZATION = [{ language: 'en', localizations: null }];
 
 const getArgValue = arg => arg.split('=')[1];
